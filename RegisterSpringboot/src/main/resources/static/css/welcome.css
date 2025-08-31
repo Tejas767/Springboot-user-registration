@@ -1,0 +1,51 @@
+@charset "UTF-8";
+  body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .welcome-card {
+        background: #fff;
+        padding: 40px;
+        width: 450px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        text-align: center;
+    }
+
+    .welcome-card img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .welcome-card h1 {
+        margin: 10px 0;
+        color: #333;
+    }
+
+    .welcome-card p {
+        color: #555;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .welcome-card a {
+        display: inline-block;
+        padding: 12px 25px;
+        margin: 8px;
+        background: #74ebd5;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    .welcome-card a:hover {
+        background: #ACB6E5;
+    }
